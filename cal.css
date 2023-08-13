@@ -1,0 +1,39 @@
+body{
+    background-color: #000000;
+}
+.calculator {
+    padding: 20px;
+    height: 480px;
+    width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.display-box {
+    font-family: 'georgia', sans-serif;
+    font-size: 20px;
+    background-color: #dcdbe1;
+    border: solid rgb(226, 188, 188) 0.5px;
+    color: rgb(255, 24, 24);
+    width: 100%;
+    height: 75%;
+}
+
+#btn {
+    background-color: #7cfc52;
+}
+
+input[type=button] {
+    font-family: 'georgia', sans-serif;
+    background-color: #07c9ff;
+    color: rgb(228, 26, 26);
+    border: solid rgb(255, 181, 181) 0.5px;
+    width: 100%;
+    font-size: 20px;
+    height: 80%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+}
